@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE stocks [
+<!ELEMENT stocks (items+)>
+<!ELEMENT items (iname,pdate,cost,ledger,qty,dqty,pstock,location,transfered,tqty,remark)>
+<!ELEMENT iname (#PCDATA)>
+<!ELEMENT pdate (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT ledger (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+<!ELEMENT dqty (#PCDATA)>
+<!ELEMENT pstock (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT transfered (#PCDATA)>
+<!ELEMENT tqty (#PCDATA)>
+<!ELEMENT remark (#PCDATA)>
+
+<!ATTLIST items id CDATA #REQUIRED>
+]>
+
+<stocks>
+    <items id="1">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+    <items id="2">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+    <items id="3">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+    <items id="4">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+    <items id="5">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+    <items id="6">
+        <iname>sssss</iname>
+        <pdate>20/5/200</pdate>
+        <cost>55</cost>
+        <ledger>3</ledger>
+        <qty>4</qty>
+        <dqty>3</dqty>
+        <pstock>1</pstock>
+        <location>dharwad</location>
+        <transfered>cse</transfered>
+        <tqty>0</tqty>
+        <remark>good</remark>
+    </items>
+</stocks>

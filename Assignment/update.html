@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Data Update Page
+    </title>
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <center>
+            <table>
+                <caption style="margin: 10px;"> <b><u>Update Data</u></b></caption>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            Item ID
+                        </td>
+                        <td>
+                            <input type="number" id="id" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Item ID" />
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            Item Name
+                        </td>
+                        <td>
+                            <input type="text" id="name" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Item Name" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+
+                            Purchase Date
+
+
+                        </td>
+                        <td>
+                            <center>
+                                <input type="date" id="date"
+                                    style="border-radius: 10px; text-align:center; width: 95%;" />
+                            </center>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Purchase cost
+                        </td>
+                        <td>
+                            <input type="number" id="cost" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Purchase cost" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Ledger Folio
+                        </td>
+                        <td>
+                            <input type="number" id="ledger" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Ledger Folio" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Item Quantity
+                        </td>
+                        <td>
+                            <input type="number" id="itemqty" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Item Quantity" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Damage Quantity
+                        </td>
+                        <td>
+                            <input type="number" id="dqty" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Damage Quantity" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Pysical Stock
+                        </td>
+                        <td>
+                            <input type="number" id="pstock" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Pysical Stock" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Location
+                        </td>
+                        <td>
+                            <select name="location" id="location" style="border-radius: 10px; text-align:center;">
+                                <option>--Select Branch--</option>
+                                <option value="Computer Science">Computer Science </option>
+                                <option value="Information Science">Information Science </option>
+                                <option value="Civil Engineering">Civil Engineering</option>
+                                <option value="Electrical Engineering">Electrical Engineering</option>
+                                <option value="Electronic and Communication">Electronic and Communication </option>
+                                <option value="Chemical Engineering">Chemical Engineering</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Transfered To
+                        </td>
+                        <td>
+                            <select name="transfer" id="transfer" style="border-radius: 10px; text-align:center;">
+                                <option>--Select Branch--</option>
+                                <option value="Computer Science">Computer Science </option>
+                                <option value="Information Science">Information Science </option>
+                                <option value="Civil Engineering">Civil Engineering</option>
+                                <option value="Electrical Engineering">Electrical Engineering</option>
+                                <option value="Electronic and Communication">Electronic and Communication </option>
+                                <option value="Chemical Engineering">Chemical Engineering</option>
+                            </select>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            Transfered Quantity
+                        </td>
+                        <td>
+                            <input type="number" id="tqty" style="border-radius: 10px; text-align:center;width: 95%;"
+                                placeholder="Transfered Quantity" />
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            Remark
+                        </td>
+                        <td>
+                            <select id="remark" style="border-radius: 10px; text-align:center;width: 99%;">
+                                <option value="Good">Good </option>
+                                <option value="Bad">Bad </option>
+                                <option value="Moderate">Moderate</option>
+                            </select>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <center>
+                                <input type="reset" value="Reset" onclick="reset()"
+                                    style="width:80%;margin-top: 10px;" />
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                <input type="button" onclick="update()" value="Update"
+                                    style="width:50%; margin-top: 10px;" />
+                            </center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="margin: 20px;">
+
+            </div>
+        </center>
+    </fieldset>
+</body>
+
+<script src="Update.js">
+</script>
+
+</html>

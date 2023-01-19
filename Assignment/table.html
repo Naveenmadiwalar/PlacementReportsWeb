@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Table Page
+    </title>
+
+    <style>
+        #tbody {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body id="load">
+    <fieldset >
+        <center>
+            <legend>Stock Data of Departments</legend>
+            <div style="overflow-x:auto; height:60vh">
+                <table border="1">
+                    <thead>
+                        <tr style="padding:5px; color: blue;">
+                            <th>ID</th>
+                            <th>Item Name</th>
+                            <th>Purchase Date</th>
+                            <th>Cost</th>
+                            <th>Ledger Folio</th>
+                            <th>QTY</th>
+                            <th>Damage QTY</th>
+                            <th>Physical Stock</th>
+                            <th>Location</th>
+                            <th>Transfered To</th>
+                            <th>QTY</th>
+                            <th>Remark</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+            <div style="margin: 20px;">
+                <button onclick="insert()">Insert</button>
+                <button onclick="deleteData()">Delete</button>
+                <button onclick="update()">Update</button>
+            </div>
+        </center>
+    </fieldset>
+</body>
+
+<script src="table1.js">
+</script>
+
+</html>

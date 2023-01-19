@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "addstd.dtd">
+<students>
+    <student>
+        <usn usn="1">1</usn>
+        <name>xyz</name>
+        <branch>cs</branch>
+        <sem>7</sem>
+        <comp>xyz</comp>
+        <pack>10</pack>
+    </student>
+</students>

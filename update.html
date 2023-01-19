@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="a1">
+    <center>
+            <div>
+                <legend><h1>Update Student</h1></legend>
+            <table>
+                <tr>
+                    <td><label><b>USN:</b></label></td>
+                    <td>
+                        <input type="text" name="stdusn" id="stdusn" placeholder="Ex:2SD19CS064" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b>Name:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="stdname" id="stdname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b>Phone No:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="phno" id="phno">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><b>Email:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label><b>Branch:</b></label></td>
+                    <td>
+                        <select id="branch" disabled>
+                            <option value="cse">Computer Science and Engineering</option>
+                            <option value="ise">Information Science and Engineering</option>
+                            <option value="eee">Electrical and Electronics Engimeering</option>
+                            <option value="ece">Electronic and Communication Engineering</option>
+                            <option value="mech">Mechanical Engineering</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><label>Semester:</label></b></td>
+                    <td><input type="text" name="sem" id="sem"></td>
+                </tr>
+                <tr>
+                    <td><b><label>Company:</label></b></td>
+                    <td><input type="text" name="cmp" id="cmp" disabled></td>
+                </tr>
+                <tr>
+                    <td><b><label>Package:(lpa)</label></b></td>
+                    <td><input type="text" name="pkg" id="pkg"></td>
+                </tr>
+            </table><br>
+            <button onclick="addStd();">Submit</button>
+            </div>
+    </center>
+</div>
+</body>
+<script src="update.js">
+</script>
+</html>

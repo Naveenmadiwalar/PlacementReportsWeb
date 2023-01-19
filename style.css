@@ -1,0 +1,80 @@
+body{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+}
+table, th, tr, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-collapse: collapse;
+  
+}
+#nav tr:hover {
+    background-color: #ddd;
+
+}
+.p1 tr:hover {
+    background-color: #ddd;
+}
+th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+nav{
+width: 100%;
+}
+
+h1{
+color: rgb(248, 69, 4);
+}
+
+button{
+background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer
+}
+button:hover {
+    background-color: #45a049;
+}
+.a1 tr td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-collapse: collapse;
+}
+.a1 label{
+    font-family: "Times New Roman", Times, serif;;
+}
+.a1 input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+.a1 button{
+    width: 33%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+    }
+.a1 button:hover {
+        background-color: #45a049;
+    }
+.a1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }

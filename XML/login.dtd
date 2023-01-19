@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT users (user*)>
+<!ELEMENT user (uid,password)>
+<!ELEMENT uid (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST uid uid CDATA #REQUIRED>

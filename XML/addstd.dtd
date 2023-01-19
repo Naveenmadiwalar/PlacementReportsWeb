@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT students (student*)>
+<!ELEMENT student (usn,name,branch,sem,comp,pack)>
+<!ELEMENT  usn (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT sem (#PCDATA)>
+<!ELEMENT comp (#PCDATA)>
+<!ELEMENT pack (#PCDATA)>
+<!ATTLIST usn usn CDATA #REQUIRED>
